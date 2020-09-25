@@ -1,0 +1,43 @@
+body {
+  background: url("../img/desert.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+* {
+  text-align: center;
+}
+
+h1,
+span {
+  color: white;
+  font-size: 3em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p,
+.introduction,
+#petitTitre {
+  font-size: 1em;
+  color: black;
+  opacity: 0.9;
+  background-color: wheat;
+  border: solid 0.2em;
+  border-radius: 0.2em;
+  box-shadow: black 8px 8px 2px;
+  text-shadow: black 2px 2px 0px;
+}
+
+.imgFloat {
+  float: left;
+}
+
+/*Sélectionne toutes les balises <em>  situées à l'intérieur d'une balise <h3>*/
+h3 em {
+  color: paleturquoise;
+}
+
+/*Sélectionne la première balise <p>  située après un titre <h3>*/
+h3 + p {
+  color: red;
+}
